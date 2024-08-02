@@ -1,0 +1,214 @@
+---
+title: 'Draft Post for Testing Markdown Render'
+date: '0001-01-01'
+lastUpdate: '2024-03-13'
+description: 'Post made for test markdown render'
+category: 'Test'
+tags: 'title4test, content4test, code4test'
+author: 'Robert Lewis'
+test: true
+---
+
+# Heading Level 1
+
+## Heading Level 2
+
+### Heading Level 3
+
+#### Heading Level 4
+
+# HTML Elements Test
+
+## Common HTML Tags
+
+<h1>HTML Heading</h1>
+
+<p>This is a paragraph.</p>
+
+<div>A simple div.</div>
+
+## Iframe Example
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+  allowfullscreen
+></iframe>
+
+## Video Embedding
+
+<video src="assets/intentional-hover-screencast.mp4" controls />
+
+## Image Embedding
+
+### Fixed Widths
+
+<img src="assets/Hannah.png" width="100" />
+
+<img src="assets/Hannah.png" width="300" />
+
+<img src="assets/Hannah.png" width="560" />
+
+<img src="assets/Hannah.png" width="1000" />
+
+<img src="assets/Hannah.png" width="2000" />
+
+# Text Formatting
+
+Regular text
+**Bold text**
+_Italic text_
+~~Strikethrough text~~
+
+# Images with Alt Text
+
+![Hannah Banana](assets/Hannah.png)
+
+# Code Snippets
+
+## Inline Code
+
+Without highlight: `const x = 10;`
+
+With Rust highlight: `let x: i32 = 10; {:rust}`
+
+&nbsp;
+
+## Code Blocks
+
+### Elixir Highlighting
+
+```elixir
+defmodule Example do
+  def add(a, b) do
+    a + b
+  end
+end
+```
+
+### JavaScript with Highlighting
+
+```javascript
+function add(a, b) {
+  return a + b
+}
+```
+
+### SQL
+
+```sql
+SELECT * FROM users;
+```
+
+### Bash Script
+
+```bash
+#!/bin/bash
+echo "Hello, World!"
+```
+
+### Python with Line Numbers
+
+```python showLineNumbers
+def add(a, b):
+    return a + b
+
+result = add(2, 3)
+```
+
+### Complete Features in Rust
+
+```rust showLineNumbers title="main.rs" caption="A simple Rust program for addition"
+fn add(a: i32, b: i32) -> i32 {
+  a + b
+}
+
+fn main() {
+  let result = add(2, 3);
+  println!("The result is {}", result);
+}
+```
+
+# Markdown Tables
+
+## Simple Table
+
+| Header One | Header Two |
+| ---------- | ---------- |
+| Cell One   | Cell Two   |
+| Cell Three | Cell Four  |
+
+## HTML Table
+
+```html
+<table>
+  <tr>
+    <th>Column 1</th>
+    <th>Column 2</th>
+  </tr>
+  <tr>
+    <td>Data 1</td>
+    <td>Data 2</td>
+  </tr>
+</table>
+```
+
+# Task Lists
+
+- [x] Completed task
+- [ ] Incomplete task
+
+# Lists
+
+## Unordered List
+
+- Item one
+- Item two
+  - Subitem one
+  - Subitem two
+
+## Ordered List
+
+1. First item
+2. Second item
+3. Third item
+
+# Custom Components (Assuming support)
+
+<Tip>This is a helpful tip.</Tip>
+
+<Warn>A caution for readers.</Warn>
+
+<Error>An error or important notice.</Error>
+
+# Mathematical Equations
+
+Inline equation: $E = mc^2$
+
+Block equation:
+
+$$
+E = mc^2
+$$
+
+# Blockquote
+
+> "To be, or not to be, that is the question."
+
+# Horizontal Rule
+
+---
+
+# Footnotes
+
+Text with a footnote.[^1]
+
+[^1]: This is the footnote.
+
+# Conclusion
+
+This concludes the draft post for testing MDX capabilities, covering a wide range of markdown, HTML, and custom MDX components for comprehensive testing.
